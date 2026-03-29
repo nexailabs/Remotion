@@ -5,3 +5,13 @@ dist
 
 # Ignore the output video from Git but not videos you import into src/.
 out
+
+# Temp files
+tmp-frames/
+whisper.cpp/
+whisper-bin-x64.zip
+transcribe.mjs
+
+# Large media (employees should add their own video to public/)
+public/video.mp4
+public/captions.json
